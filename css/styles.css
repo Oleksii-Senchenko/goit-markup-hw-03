@@ -4,15 +4,44 @@ body {
 }
 
 
+
+.container{
+    display: flex;
+    width: 1200px;
+margin-left: auto;
+margin-right: auto;
+background-color: orange;}  
+section{padding: 3px;}
+
+.header-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display:flex
+}
+.contact-main-box {justify-content: end;}
+.menu_link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding-left: 50px;
+}
+.studio-flex{
+    margin-left:93px ;
+}
 .menu_contacts {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
-    
-    
+    color: #757575;  
+    padding-left: 50px;
+ 
 }
 
 .menu_contacts:hover {
@@ -20,7 +49,7 @@ body {
     font-weight: 500;
 }
 
-.main_logo_web {
+.main_logo_web{
     color:#2196F3;
     font-family: 'Raleway';
     font-weight: 700;
@@ -28,7 +57,14 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-
+.footer-logo{
+    color:#2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
 
 .link {
     text-decoration: none;
@@ -59,27 +95,46 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    min-width:  696px;
 }
 
 .banner_button {
-    /* BUTTON squire */
     background: #2196F3;
     box-shadow: 0px 4px 4px #00000026;
     border-radius: 4px;
-    /* text in BUTTON */
-    /* Заказать услугу */
     font-family: inherit;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
+    margin-left: 700px;
+    margin-top: 350px;
+    margin-bottom: 200;
+   
 }
 
 
 /* Особенности */
 .info {
     background-color: white;
+}
+.flex-info{
+    display: inline-block;
+    justify-content: center;
+}
+
+.flex-box-info-1,
+.flex-box-info-2,
+.flex-box-info-3,
+.flex-box-info-4 {
+    display: flex;
+    padding-left:0px;
+    display: inline-block;
+}
+
+.container-info{
+    display: flex;
 }
 
 .info_h2_font {
@@ -96,7 +151,13 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+
 }
+
 
 
 /* Чем мы занимаемся */
@@ -110,11 +171,19 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
 }
 
 .business_img {
     width: 370px;
     height: 294px;
+}
+.flex-business-img{
+    display: flex;
+    display: inline-block;
 }
 
 
@@ -154,6 +223,8 @@ body {
 /* Подвал */
 .footer {
     background-color: #2F303A;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .address {
@@ -180,13 +251,7 @@ body {
     color: #757575;
 }
 
-.menu_link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
+
 
 .menu_link:hover {
     color: #2196F3;
@@ -216,4 +281,7 @@ body {
 .portfolio_img {
     width: 370px;
     height: 294px
+}
+.flex-Ihor{
+    margin-left: auto;
 }
