@@ -92,10 +92,10 @@ section{padding: 3px;}
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
     min-width:  696px;
+    margin: 0 auto;
 }
 
 .banner_button {
@@ -184,8 +184,8 @@ section{padding: 3px;}
 .flex-business-img{
     display: flex;
     display: inline-block;
+    display: inline-flex;
 }
-
 
 
 /* Наша команда */
@@ -226,7 +226,9 @@ section{padding: 3px;}
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+.footer-body{
+    display: flex;
+}
 .address {
     font-style: normal;
     font-size: 14px;
