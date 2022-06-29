@@ -93,13 +93,11 @@ p {
   margin-right: 0;
 }
 .menu_contacts {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  padding-right: 50px;
 }
 
 .menu_contacts:hover {
@@ -143,7 +141,7 @@ p {
   width: 696px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .banner_button {
@@ -167,6 +165,7 @@ p {
 /* Особенности */
 .info {
   background-color: white;
+  padding-bottom: 0px;
 }
 .info-list {
   display: flex;
@@ -300,6 +299,7 @@ img {
 .footer-cont-botton {
   margin-bottom: 9px;
 }
+.footer-cont-botton:last-child{margin-bottom: 0;}
 .footer-cont-botton :hover {
   color: #2196f3;
   font-weight: 500;
@@ -321,8 +321,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .portfolio_site_theme {
@@ -356,6 +355,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .button-item {
   margin-right: 8px;
@@ -367,14 +367,14 @@ img {
 .port-img-list {
   display: flex;
   flex-wrap: wrap;
-  padding: auto;
+  gap: 30px;
 }
 .port-img-item {
-  text-align: start;
   width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-  border-bottom: 1px solid #EEEEEE;
 }
+.port-img-wrapper{
+  padding: 20px 24px;
+  border-top: none;
+  border: 1px solid #EEEEEE;
 
+}
