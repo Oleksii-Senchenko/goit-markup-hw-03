@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;300;400&family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <!-- Normalize -->
@@ -30,8 +30,7 @@
     <header class="header">
       <div class="container header-container">
         <a class="main_logo_web link" href="index.html">
-          <img src="./images/WebStudio.svg" alt="">
-          <!-- Web<span class="dark-logo">Studio</span> -->
+          Web<span class="dark-logo">Studio</span>
         </a>
 
         <nav class="menu_nav">
@@ -48,7 +47,7 @@
           </ul>
         </nav>
         <ul class="contacts-list">
-          <li class="contacts-item">
+          <li class="">
             <a class="menu_contacts link" href="mailto:info@devstudio.com">
               info@devstudio.com
             </a>
@@ -63,13 +62,13 @@
     </header>
 
     <main>
-      <section class="banner">
+      <section class="banner section">
         <div class="container">
           <h1 class="banner_h1">Эффективные решения для вашего бизнеса</h1>
           <button class="banner_button" type="button">Заказать услугу</button>
         </div>
       </section>
-      <section class="info">
+      <section class="info section">
         <div class="container">
           <ul class="info-list">
             <li class="info-items">
@@ -103,7 +102,7 @@
           </ul>
         </div>
       </section>
-      <section class="business_section">
+      <section class="section">
         <div class="container">
           <h2 class="business_h2">Чем мы занимаемся</h2>
           <ul class="business-list">
@@ -135,7 +134,7 @@
         </div>
       </section>
 
-      <section class="team_section">
+      <section class="team_section section">
         <div class="container">
           <h2 class="team_h2">Наша команда</h2>
           <ul class="team-list">
@@ -146,8 +145,10 @@
                 width="300"
                 alt="Игорь Демьяненко Product Designer"
               />
-              <h3 class="name">Игорь Демьяненко</h3>
-              <p class="position">Product Designer</p>
+              <div class="team-wrapper">
+                <h3 class="name">Игорь Демьяненко</h3>
+                <p class="position">Product Designer</p>
+              </div>
             </li>
             <li class="team-info">
               <img
@@ -156,8 +157,10 @@
                 width="300"
                 alt="Ольга Репина Frontend Developer"
               />
-              <h3 class="name">Ольга Репина</h3>
-              <p class="position">Frontend Developer</p>
+              <div class="team-wrapper">
+                <h3 class="name">Ольга Репина</h3>
+                <p class="position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-info">
               <img
@@ -166,8 +169,10 @@
                 width="300"
                 alt="Николай Тарасов Marketing"
               />
-              <h3 class="name">Николай Тарасов</h3>
-              <p class="position">Marketing</p>
+              <div class="team-wrapper">
+                <h3 class="name">Николай Тарасов</h3>
+                <p class="position">Marketing</p>
+              </div>
             </li>
             <li class="team-info">
               <img
@@ -176,8 +181,10 @@
                 width="300"
                 alt="Михаил Ермаков UI Designer"
               />
-              <h3 class="name">Михаил Ермаков</h3>
-              <p class="position">UI Designer</p>
+              <div class="team-wrapper">
+                <h3 class="name">Михаил Ермаков</h3>
+                <p class="position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -187,20 +194,19 @@
     <footer class="footer">
       <div class="container">
         <a class="logo-web-footer link" href="index.html">
-          <img src="./images/WebStudioWhite.svg" alt="">
-          <!-- Web
-          <span class="footer-logo"> Studio </span> -->
+          Web
+          <span class="footer-logo"> Studio </span>
           <!-- will be picture -->
         </a>
         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
 
         <ul>
-          <li>
+          <li class="footer-cont-botton">
             <a class="footer-contacts link" href="mailto:info@devstudio.com">
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="footer-cont-botton">
             <a class="footer-contacts link" href="tel:+380991111111">
               +38 099 111 11 11
             </a>
